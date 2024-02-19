@@ -4,6 +4,7 @@ body{
     
 }
 #navbar{
+    
     font-size: 1.5rem;
     font-weight: 100;
 }
@@ -19,4 +20,32 @@ body{
     font-size: 1.5rem;
     position: relative;
     justify-content: safe;
+}
+.img-fluid{
+    border: 5px solid #555;
+}
+#title-head{
+    font-weight: 100;
+    font-size: 4rem;
+}
+.navbar.scrolled{
+    background-color: rgb(139, 192, 180);
+}
+.h21{
+    color: #354259;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.lead{
+    line-height: 2;
+}
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+@media (max-width: 1200px){/* kode css */
+    #title-head h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
 }
